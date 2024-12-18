@@ -1,0 +1,17 @@
+package JavaTask;
+
+import java.time.LocalDate;
+
+public class AddFourYears {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LocalDate a=LocalDate.now();
+		System.out.println("Today Date is"+" "+a);
+        LocalDate Add=a.plusYears(4);
+		System.out.println("After Adding Fours Years into the current date is"+" " +Add);
+ 	
+
+	}
+
+}
